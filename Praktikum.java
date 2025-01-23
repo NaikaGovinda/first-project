@@ -7,5 +7,6 @@ public class Praktikum {
         int number;
         number = input.nextInt();
         System.out.println(number);
+        System.out.println(number + " ");
     }
 }
