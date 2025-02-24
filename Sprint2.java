@@ -1,8 +1,9 @@
 public class Sprint2 {
     public static void main(String[] args) {
-        Person person = new Person();
+        Person person = new Person("Привет");
         System.out.println(person.print);
     }
+
     public static class Person {
         public String print;
         private Integer age;
